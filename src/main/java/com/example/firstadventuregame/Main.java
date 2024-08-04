@@ -16,6 +16,8 @@ public class Main {
                 case 1:
                     System.out.println("-Your spaceship crashed into a black hole and you are dead-");
                     GameOver();
+                    input.nextLine();
+                    input.nextLine();
                     System.exit(0);
                 case 2:
                     ClearConsole();
@@ -44,6 +46,8 @@ public class Main {
                 case 2:
                     System.out.println("-You go to escape pod and landed on a nearby planet");
                     GameOver();
+                    input.nextLine();
+                    input.nextLine();
                     System.exit(0);
                 default:
                     System.out.println("INVALID INPUT");
@@ -67,11 +71,15 @@ public class Main {
                             System.out.println("-You tried to refuel the spaceship but there's no time-");
                             System.out.println("-Your spaceship crashed into a black hole-");
                             GameOver();
+                            input.nextLine();
+                            input.nextLine();
                             System.exit(0);
 
                         case 2:
                             System.out.println("-You went to the escape pod and you evacuate to a nearby planet-");
                             GameOver();
+                            input.nextLine();
+                            input.nextLine();
                             System.exit(0);
                         default:
                             System.out.println("INVALID INPUT");
